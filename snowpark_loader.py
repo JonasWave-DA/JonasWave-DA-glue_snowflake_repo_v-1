@@ -188,7 +188,7 @@ def load_data(session, stage_name, table_name):
 def main():
     STAGE_NAME = "EV_PARQUET_STAGE"
     TABLE_NAME = "ELECTRIC_VEHICLES_WA_SNOW"
-    S3_PATH = "s3://dol-us-east-1-863162827303-dev-stage/electric_vehicles_raw/"
+    S3_PATH = "s3://dol-us-east-1-863162827303-dev-stage/bronze/electric_vehicles/"
     SECRET_NAME = "snowflake-connection-credentials"
     
 
